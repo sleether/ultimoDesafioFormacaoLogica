@@ -37,8 +37,9 @@ console.log(`O ${this.nome} , de ${this.hp} de HP, atacou usando ${attack}`);
 }
 //Fechamos os comandos acima com as chaves e agora vamos pra parte legal//
 
-const meuHeroi = new Heroi('PatoDonald o Grande Mago Implacável', 2500,'mago');
-meuHeroi.attack();
-
-const outroHeroi = new Heroi('Gibaltrar', 3500, 'guerreiro');
+const meuHeroi =   new Heroi('PatoDonald Grande Mago Implacável',2500,'mago');
+const outroHeroi = new Heroi('Gibaltrar',3500,'guerreiro');
+const maisUmHeroi =new Heroi('Salazar',1850,'ninja');
 outroHeroi.attack();
+meuHeroi.attack();
+maisUmHeroi.attack();
